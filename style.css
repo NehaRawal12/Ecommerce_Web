@@ -17,9 +17,9 @@
 
 /* GENERAL CSS FOR ALL START HERE */
 
-.ring {
+/* .ring {
   border: 1px solid red;
-}
+} */
 
 .flexbox {
   display: flex;
@@ -68,6 +68,10 @@
   /* border: 1px solid red; */
   background-color: rgb(230, 230, 230);
   border-radius: 3px;
+}
+.center {
+  flex: 1; 
+  text-align: center;
 }
 
 .select_option select {
@@ -721,6 +725,7 @@ aside {
 .lista li {
   display: inline;
   font-size: 0.8em;
+  margin: 1.5% 0%;
 }
 
 .lista a {
@@ -730,29 +735,28 @@ aside {
 
 /* <!-- VERTICAL LI --> */
 
-.verticalli {
+.kkk{
   background-color: var(--background_black);
   border-bottom: 1px solid grey;
   align-items: stretch;
 }
-.mainhead {
+.doun{
   padding: 3% 2%;
 }
 
-.mainhead p {
+.doun p {
   font-weight: bold;
   color: white;
+
 }
 
-/* .mainhead p:hover {
-  text-decoration: underline yellow;
-  text-underline-offset: 5px;
-} */
 
-.mainhead a {
+
+.doun a {
   font-size: 0.8rem;
   text-decoration: none;
   color: var(--light_grey);
+  
 }
 
 /* <!-- VERTICAL LI --> */
@@ -766,9 +770,9 @@ aside {
   color: white;
 }
 
-.connectwithus i {
+/* .connectwithus i {
   margin-right: 15px;
-}
+} */
 
 .navbarbottom {
   text-align: center;
@@ -791,11 +795,11 @@ aside {
   .navbarbottom {
     display: none;
   }
-
-  .connectwithus {
+}
+  /* .connectwithus {
     display: none;
   }
-}
+} */
 
 @media screen and (max-width: 1100px) {
   aside,
@@ -894,9 +898,9 @@ aside {
   .card3 {
     display: none;
   }
-  .connectwithus {
+  /* .connectwithus {
     display: block;
-  }
+  } */
 
   .navbarbottom {
     display: block;
